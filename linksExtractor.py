@@ -26,7 +26,7 @@ def linksExtractor(text):
 
 
 try:
-	fileSrc = open("A_re-introduction_to_JavaScript.html", "r")
+	fileSrc = open("sample.html", "r")
 except IOError:
 	print >> sys.stderr, "File could not be opened"
 	sys.exit(1)
